@@ -1,13 +1,3 @@
-window.addEventListener('resize', function() {
-    if (window.innerWidth > 0) {
-      // Aquí puedes realizar alguna acción o recargar la página
-      location.reload();
-    }
-  });
-
-
-
-
 const sideMenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
@@ -36,3 +26,7 @@ themeToggler.addEventListener('click',()=> {
 
 
 });
+
+
+
+
